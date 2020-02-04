@@ -1,15 +1,21 @@
+//Mateo León Alzáte: Sería bueno configurar reglas en el eslint para arreglar errores
+
 'use strict';
 
+//Mateo León Alzáte: Utilizar let en vez de var para mantener buenas prácticas de programación.
 var x = 0;
 var y = 0;
 var value = -1;
 
+/*Mateo León Alzáte:La función no tiene documentación
+Hay variables que se utilizan pero no se llaman*/
 function setup(){
   createCanvas(windowWidth, 480);
   colorMode(RGB);
 }
 
-
+/*Mateo León Alzáte:La función no tiene documentación
+Hay variables que se utilizan pero no se llaman*/
 function draw(){
   ellipse(200, 200, 150,150);
   line(200, 125, 200, 140);
@@ -22,6 +28,8 @@ function draw(){
   hoursH();
 }
 
+/*Mateo León Alzáte:La función no tiene documentación
+Hay variables que se utilizan pero no se llaman*/
 function secondsM(){
   push();
   translate(200,200);
@@ -31,7 +39,8 @@ function secondsM(){
   pop();
 }
 
-
+/*Mateo León Alzáte:La función no tiene documentación
+Hay variables que se utilizan pero no se llaman*/
 function minutesM(){
   push();
   translate(200,200);
@@ -41,6 +50,8 @@ function minutesM(){
   pop();
 }
 
+/*Mateo León Alzáte:La función no tiene documentación
+Hay variables que se utilizan pero no se llaman*/
 function hoursH(){
   push();
   translate(200,200);
