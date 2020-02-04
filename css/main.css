@@ -1,3 +1,6 @@
+/*
+Mateo León Alzáte: Aunque se incluyen media queries, la página no es responsive para celulares
+*/
 @font-face {
   font-family: customFont;
   src: url(fonts/passageway.otf);
