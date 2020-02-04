@@ -1,5 +1,9 @@
 'use strict';
 
+
+//Mateo León Alzáte: No se sabe qué código hizo el estudiante y cuál del tema
+//Mateo León Alzáte: El video presentado no es narrado y no es mayor a 3 minutos
+//Mateo León Alzáte: No tiene imagen en los student submissions en la página de John
 var x = 0;
 var y = 0;
 var value = -1;
