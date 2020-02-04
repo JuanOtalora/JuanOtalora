@@ -4,17 +4,27 @@
 	<!-- Required meta tags -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Mateo León Alzáte: Sería bueno incluir una descripcion-->
+	<meta name="description" content="This is the personal web page of Juan Otalora">
+	<!--Mateo León Alzáte: Sería bueno incluir los autores-->
+	<meta name="author" content="Juan Otalora">
+	<!--Mateo León Alzáte: Sería bueno incluir los keywords-->
+	<meta name="keywords" content="HTML,CSS,JavaScript,Juan Otalora">
 	<!-- Required links CSS -->
 	<!-- Bootstrap CSS -->
+	<!--Mateo León Alzáte: Sería bueno bajar bootstrap para no tener que utilizar un CDN-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!-- FONTS  -->
+	<!--Mateo León Alzáte: Sería bueno bajar la font para no tener que utilizar un CDN-->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
+	<!--Mateo León Alzáte: Sería bueno bajar la librería para no tener que utilizar el CDN-->
 	<script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+	<!--Mateo León Alzáte: Los scripts deberían ir en lo último del body-->
 	<script src="main.js"></script>
 
-
+	
 	<title>Juan's Personal WebPage</title>
 </head>
 <body>
@@ -49,6 +59,7 @@
 	</header>
 	<section id="about">
 			<div class="pageNumber"><p>00002</p></div>
+			<!--Mateo León Alzáte: Considerar usar h1 como top-level-heading https://www.w3.org/wiki/HTML/Usage/Headings/h1only-->
 			<h1 class="aboutTitle">About</h1>
 			<h1 class="changing">Changing perception</h1>
 			<h2>JUAN OTALORA</h2>
@@ -60,6 +71,7 @@
 		<p id="descriptionProject">Here I will show some of the best projects that I've been working on, throught my career, click on them for more info.</p>
 		<div class="row row-cols-1 row-cols-md-2">
 		  <div class="col mb-4">
+			<!--Mateo León Alzáte: Según los estándares de la W3, no es bueno colocar divs dentro de botones-->
 		  	<button type="button" class="behind" data-toggle="modal" data-target="#staticBackdrop1">
 		    <div class="card">
 		      <img src="img/Inside.png" class="card-img-top" alt="inside game image">
@@ -201,6 +213,7 @@
 		  <div class="modal-dialog" role="document">
 		    <div class="modal-content">
 		      <div class="modal-header">
+			 <!--Mateo León alzáte: El id staticBackdropLabel está duplicado-->
 		        <h5 class="modal-title" id="staticBackdropLabel">HISTORIAS DE UN CRONISTA</h5>
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		          <span aria-hidden="true">&times;</span>
@@ -247,6 +260,7 @@
 		  <div class="modal-dialog" role="document">
 		    <div class="modal-content">
 		      <div class="modal-header">
+			<!--Mateo León alzáte: El id staticBackdropLabel está duplicado-->
 		        <h5 class="modal-title" id="staticBackdropLabel">APPROVECHANDO</h5>
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		          <span aria-hidden="true">&times;</span>
@@ -301,13 +315,18 @@
 				</div>
 				<h2 class="black">Contact</h2>
 				<div class="text-contact">
+						<!--Mateo León Alzáte: El id descriptionAbout está duplicado-->
 						<p class="black" id="descriptionAbout">Here are some of my contact information, im open to see many ideas and to talk with you!</p>	
 						<div class="text-contact2">
 						<div class="linkedin">
+							<!--Mateo León Alzáte: Todas las imagenes deberían tener un alt-->
+							<!--Mateo León Alzáte: Poner una clase a la imagen para desacoplar HTML de CSS-->
 							<img style="margin-bottom: 20px;" src="img/linkedin.png">
 							<a href="https://www.linkedin.com/in/juan-pablo-otalora-0a306a188/">Here is my linkedin profile</a>
 						</div>
 						<div class="email">
+							<!--Mateo León Alzáte: Todas las imagenes deberían tener un alt-->
+							<!--Mateo León Alzáte: Poner una clase a la imagen para desacoplar HTML de CSS-->
 							<img style="max-width: 250px;" src="img/Gmail.svg">
 							<p class="black">Here is my email: Juanpocsc@gmail.com</p>
 						</div>
@@ -320,6 +339,7 @@
 		</div>
 	</section>
 	<!-- Bootstrap Components -->
+	<!--Mateo León Alzáte: Bajar las librerías para no tener que utilizar CDNs-->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
