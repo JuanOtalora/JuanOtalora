@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!-- FONTS  -->
+	<!--Mateo León Alzáte: Recomiendo utilizar dos fonts, una primaria y una secundaria para tener una página más limpia sin tener fonts mezclados-->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
 	<script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
@@ -33,6 +34,7 @@
 		</a>
 	</nav>
 	<header id="mainPhoto">
+		<!--Mateo León Alzáte: Recomiendo quitar la paginación de los pages o dejarlos o más cortos o más visibles-->
 		<div class="pageNumber"><p>00001</p></div>
 		<div class="sectionContainer">
 			<div class="title">Computer Scientist <br> & Designer</div>
@@ -50,16 +52,19 @@
 	<section id="about">
 			<div class="pageNumber"><p>00002</p></div>
 			<h1 class="aboutTitle">About</h1>
+			<!--Mateo León Alzáte: Este h1 se sale del grid-->
 			<h1 class="changing">Changing perception</h1>
 			<h2>JUAN OTALORA</h2>
 			<p id="descriptionAbout">I am a Computer Scientist and Designer from los <a href="https://uniandes.edu.co/en" target="_blank">Andes University</a>. My passion is how we can create virtual ecosystems where experience and interactivity collide and work in tandem to create real worlds.</p>		
 	</section>
 	<section id="projects">
 		<div class="pageNumber"><p>00003</p></div>
+		<!--Mateo León Alzáte: Este h1 no tiene padding cuando la pantalla tiene un width de 326px-->
 		<h1 class="projectsTitle">Projects</h1>
 		<p id="descriptionProject">Here I will show some of the best projects that I've been working on, throught my career, click on them for more info.</p>
 		<div class="row row-cols-1 row-cols-md-2">
 		  <div class="col mb-4">
+			 <!--Mateo León Alzáte: Ninguno de los modales se ve bien al tener una pantalla menor a 926px-->
 		  	<button type="button" class="behind" data-toggle="modal" data-target="#staticBackdrop1">
 		    <div class="card">
 		      <img src="img/Inside.png" class="card-img-top" alt="inside game image">
@@ -304,7 +309,9 @@
 						<p class="black" id="descriptionAbout">Here are some of my contact information, im open to see many ideas and to talk with you!</p>	
 						<div class="text-contact2">
 						<div class="linkedin">
+							<!--Mateo León Alzáte: Las imagenes no son responsive y tienen un width muy grande al tener una pantalla menor a 726px-->
 							<img style="margin-bottom: 20px;" src="img/linkedin.png">
+							<!--Mateo León Alzáte: La página solo incluye un link a otra página, debería incluir por lo menos dos-->
 							<a href="https://www.linkedin.com/in/juan-pablo-otalora-0a306a188/">Here is my linkedin profile</a>
 						</div>
 						<div class="email">
@@ -318,6 +325,7 @@
 		<div>
 			<p class="black">What are you waiting for! The time is now!!</p>
 		</div>
+		<!--Mateo León Alzáte: El canvas creado no está alineado con el centro en pantallas mayores a 336px-->
 	</section>
 	<!-- Bootstrap Components -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
